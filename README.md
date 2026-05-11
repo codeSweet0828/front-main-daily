@@ -12,7 +12,6 @@ SNS보다 더 개인적인 일상 기록 앱입니다.
 하루의 장면들을 사진과 짧은 메모로 남기고,
 AI 인사이트를 통해 나의 일상 흐름을 돌아볼 수 있습니다.
 
----
 
 ## 📱 Preview
 
@@ -38,7 +37,6 @@ AI 인사이트를 통해 나의 일상 흐름을 돌아볼 수 있습니다.
 ## 🎨 Design Concept
 
 * Soft Pastel UI
-* iOS-inspired layout
 * Minimal & Emotional
 * Card-based interaction
 
