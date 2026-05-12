@@ -1,16 +1,114 @@
-# React + Vite
+# ✨ Moment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> 오늘의 순간을 가볍게 기록하는 감성 라이프 로그 앱
 
-Currently, two official plugins are available:
+<br />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌿 About
 
-## React Compiler
+Moment는 감정 기록보다 더 가볍고,
+SNS보다 더 개인적인 일상 기록 앱입니다.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+하루의 장면들을 사진과 짧은 메모로 남기고,
+AI 인사이트를 통해 나의 일상 흐름을 돌아볼 수 있습니다.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📱 Preview
+
+### 🏠 Home
+
+* 오늘의 순간 기록
+* AI 주간 인사이트
+* 최근 기록 타임라인
+
+### 🔮 AI Insight
+
+* 주간 활동 요약
+* 자주 방문한 장소
+* 생활 패턴 분석
+
+### 📚 Album
+
+* 기록 모아보기
+* 감성 카드형 UI
+
+---
+
+## 🎨 Design Concept
+
+* Soft Pastel UI
+* Minimal & Emotional
+* Card-based interaction
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* React
+* Vite
+* TailwindCSS
+
+### Database
+
+* MySQL
+
+## 📂 Project Structure
+
+```bash
+src/
+ ├── components/
+ │    ├── BottomNav.jsx
+ │    ├── InsightCard.jsx
+ │    └── RecordCard.jsx
+ │
+ ├── pages/
+ │    ├── Home.jsx
+ │    ├── Album.jsx
+ │    └── Insight.jsx
+ │
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+## 🚀 Getting Started
+
+### Install
+
+```bash
+npm install
+```
+
+### Run
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔥 Features
+
+* 📸 하루 한 장 기록
+* ✍️ 짧은 메모 작성
+* 🔮 AI 주간 인사이트
+* 📚 감성 앨범 UI
+* ☁️ 클라우드 백업 (예정)
+* 🔐 카카오 로그인 (예정)
+
+---
+
+## 💡 Vision
+
+Moment는 단순한 기록 앱이 아니라,
+
+> “나의 일상을 조용히 모아주는 디지털 앨범”
+
+을 목표로 합니다.
+
+
