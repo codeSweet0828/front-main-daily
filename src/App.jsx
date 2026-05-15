@@ -6,9 +6,9 @@ import {
 } from "react-router-dom";
 
 import BottomNav from "./components/BottomNav";
-
 import HomeScreen from "./pages/HomeScreen";
 import CalendarScreen from "./pages/CalendarScreen";
+import RecordScreen from "./pages/RecordScreen";
 
 function PhoneLayout() {
   return (
@@ -80,6 +80,10 @@ export default function App() {
           <Route
             path="/calendar"
             element={<CalendarScreen />}
+          />
+          <Route
+            path="/recordScreen"
+            element={<RecordScreen />}
           />
 
         </Route>
