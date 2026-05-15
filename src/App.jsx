@@ -13,12 +13,30 @@ import CalendarScreen from "./pages/CalendarScreen";
 function PhoneLayout() {
   return (
     <div className="min-h-screen bg-[#f6f3ef] flex items-center justify-center p-6">
+      
+      {/* Phone Frame */}
+      <div className="
+        relative
+        w-[390px]
+        h-[844px]
+        bg-white
+        rounded-[40px]
+        shadow-2xl
+        overflow-hidden
+        border
+        border-gray-100
+      ">
 
-      {/* Phone */}
-      <div className="relative w-[390px] h-[844px] bg-white rounded-[40px] shadow-2xl overflow-hidden border border-gray-100">
-
-        {/* Status */}
-        <div className="flex justify-between items-center px-6 pt-4 text-sm text-gray-400">
+        {/* Status Bar */}
+        <div className="
+          h-[44px]
+          flex
+          justify-between
+          items-center
+          px-6
+          text-sm
+          text-gray-400
+        ">
           <span>9:41</span>
 
           <div className="flex gap-1">
@@ -28,12 +46,18 @@ function PhoneLayout() {
           </div>
         </div>
 
-        {/* Outlet */}
-        <div className="h-[calc(844px-40px)] overflow-y-auto pb-32">
+        {/* Scroll Area */}
+        <div
+          className="
+            h-[calc(100%-44px-90px)]
+            overflow-y-auto
+            scrollbar-hide
+          "
+        >
           <Outlet />
         </div>
 
-        {/* Bottom Nav */}
+        {/* Bottom Navigation */}
         <BottomNav />
 
       </div>
@@ -48,7 +72,10 @@ export default function App() {
 
         <Route element={<PhoneLayout />}>
 
-          <Route path="/" element={<HomeScreen />} />
+          <Route
+            path="/"
+            element={<HomeScreen />}
+          />
 
           <Route
             path="/calendar"
