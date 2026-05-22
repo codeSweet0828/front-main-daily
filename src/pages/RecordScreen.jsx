@@ -1,6 +1,6 @@
 export default function RecordScreenPreview() {
   return (
-    <div className="px-6 pt-6">
+    <div>
         {/* Scroll Area */}
         <div className="h-[calc(100%-44px-86px)] overflow-y-auto px-6 pt-6 pb-10">
 

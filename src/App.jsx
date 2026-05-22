@@ -9,6 +9,7 @@ import BottomNav from "./components/BottomNav";
 import HomeScreen from "./pages/HomeScreen";
 import CalendarScreen from "./pages/CalendarScreen";
 import RecordScreen from "./pages/RecordScreen";
+import RecordDetailScreen from "./pages/RecordDetailScreen";
 
 function PhoneLayout() {
   return (
@@ -84,6 +85,10 @@ export default function App() {
           <Route
             path="/recordScreen"
             element={<RecordScreen />}
+          />
+             <Route
+            path="/recordDetailScreen"
+            element={<RecordDetailScreen />}
           />
 
         </Route>
